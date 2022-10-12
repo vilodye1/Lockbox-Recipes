@@ -1,0 +1,23 @@
+.recipe-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    padding: 40px;
+    max-width: 90%;
+    margin: 20px auto;
+}
+
+.recipe-card li {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+/* dark mode */
+.recipe-card.dark {
+    background: #555;
+    color: #e4e4e4;
+}

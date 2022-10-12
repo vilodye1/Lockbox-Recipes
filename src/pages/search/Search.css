@@ -1,0 +1,8 @@
+.search h2 {
+    margin: 20px;
+}
+
+/* dark mode */
+.search.dark{
+    color: #e4e4e4;
+}

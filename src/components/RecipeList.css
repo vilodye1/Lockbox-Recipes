@@ -1,0 +1,64 @@
+.recipe-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+
+.recipe-list .card {
+    background: #fff;
+    padding: 20px;
+    width: 80vw;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.05);
+    transition: all 0.2s ease;
+    position: relative;
+}
+
+.recipe-list .card:hover {
+    transform: scale(1.1);
+}
+
+.recipe-list .card p {
+    font-size: 16px;
+    font-weight: bold;
+    color: maroon;
+    margin-bottom: 25px;
+}
+
+.recipe-list .card a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    background-color: green;
+    padding: 5px 15px;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.recipe-list .card a:hover {
+    filter: brightness(110%);
+}
+
+.delete {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    filter: invert(60%);
+}
+
+/*  Dark Mode */
+.recipe-list .card.dark {
+    background: #555;
+}
+
+.recipe-list .card.dark p,
+.recipe-list .card.dark h3,
+.recipe-list .card.dark div {
+    color: #e4e4e4;
+}

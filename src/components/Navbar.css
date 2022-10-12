@@ -1,0 +1,37 @@
+.navbar {
+    background: purple;
+    padding: 20px;
+    color: #000;
+}
+
+.navbar nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar nav div {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.navbar a.brand {
+
+    color: #000;
+    text-decoration: none;
+}
+
+.navbar a:last-child {
+    color: #000;
+    text-decoration: none;
+    margin-left: 40px;
+    padding: 8px;
+    border: 1px solid #000;
+    border-radius: 4px;
+}
+
+.navbar a:last-child:hover {
+    background: rgba(255, 255, 255, 0.3);
+    color: #000;
+}
